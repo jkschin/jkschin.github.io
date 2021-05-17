@@ -64,6 +64,10 @@ A post on my learnings from [15.S12](https://ocw.mit.edu/courses/sloan-school-of
 - Characteristics of money - durable, portable, divisible, fungible (see 1749 Royal Bank case), acceptable, stable.
 - Central banks reserves are only available to commercial banks.
 
+## Lesson 3
+- Pre-Reading: Nakamoto paper itself. I glanced through it before. Read it again and got the ideas except for the probabilities on attacking the network and Gambler's Ruin.
+- Mostly cryptography basics so nothing new to write about in this lesson.
+
 
 
 
