@@ -36,3 +36,35 @@ A post on my learnings from [15.S12](https://ocw.mit.edu/courses/sloan-school-of
 - "Money is but a social construct"
 - Did money start from barter or from ledger? Lots of debate over there from anthropologists and historians etc.
 - Money is but a social and economic consensus.
+
+## Lesson 2
+- Pre-reading: [A Brief History of Money](https://spectrum.ieee.org/at-work/innovation/a-brief-history-of-money). 
+  - "Kublai Khan was ahead of his time: He recognized that what matters about money is not what it looks like, or even what it’s backed by, but whether people believe in it enough to use it. Today, that concept is the foundation of all modern monetary systems, which are built on nothing more than governments’ support of and people’s faith in them. Money is, in other words, a complete abstraction—one that we are all intimately familiar with but whose growing complexity defies our comprehension."
+  - "It’s really in the seventh century B.C.E., when the small kingdom of Lydia introduced the world’s first standardized metal coins, that you start to see money being used in a recognizable way. Located in what is now Turkey, Lydia sat on the cusp between the Mediterranean and the Near East, and commerce with foreign travelers was common. And that, it turns out, is just the kind of situation in which money is quite useful."
+  - "What’s more, the notion that gold is somehow more “real” than paper is, well, a mirage. Gold is valuable because we’ve collectively decided that it’s valuable and that we’ll accept goods and services in exchange for it. And that’s no different, ultimately, from our collective decision that colorful rectangles of paper are valuable and that we’ll accept goods and services in exchange for them."
+  - "This irrational fear is ultimately a legacy of the way money evolved: We cling to the belief that money needs to be backed by something “solid.” In that sense, we’re just like Marco Polo—still a bit amazed by the thought that you can base an entire economy on little pieces of paper."
+  - "Successful currencies, after all, are those that people use: They lubricate commerce, allow people to exchange goods and services, and thus encourage people to work and create."
+  - Takeaways: This is interesting and in line with some of my thoughts. If one were to distill how this world works, it can be broken down into simply the "exchange of goods and services". The laptop I'm using now, the cup I'm using now, the water I just drank, etc. Money is but the mere lubricant. How would a world that allows the exchange of goods and services but without money look like?
+- Pre-reading: [A Brief History of Ledgers](https://medium.com/unraveling-the-ouroboros/a-brief-history-of-ledgers-b6ab84a7ff41).
+  - "The central banking systems made ledger numbers, not commodities, the money of humanity. Most people spend most of their lives working at jobs to get paid. Now, this concretely means getting an increase in numbers in your bank account or getting central bank notes. Central banking caused a subtle but fundamental change in the human condition. Humanity’s primal motivation to gather wealth was redirected away from real goods to ledger numbers on paper and electronic databases."
+  - "But a public ledger of what? Well, just like in the central banking system, the ledger entry numbers (bitcoin), are the money themselves. Like central bank credit, bitcoin isn’t redeemable for anything, but unlike central bank credit you can’t pay taxes with it. The blockchain is just a public ledger for the sake of having a public ledger. Weirdly enough, people decided that owning entries on this ledger was worth paying for."
+  - "A full theory as to why people are willing to give up their hard earned bank numbers for bitcoin numbers is outside the scope of this article. I’m going to try and explain that another time." - I'd be keen to read this!
+- Pre-reading: [Princeton Bitcoin Book](https://www.lopp.net/pdf/princeton_bitcoin_book.pdf). First twenty pages. Very engaging.
+- Bitcoin is an interesting social construct. A student argued that there is no "inherent value" in it and it is not backed by any central bank. The people participating in the BTC market have a consensus that it's "worth something". Another student argued that there is "inherent value" as you can buy a pizza or something with it, just that the price fluctuates wildly now. 
+- It turns out that there are no US law against creating your own money! But you have to comply with the other laws - like guarding against illicit activity.
+- Can you legally pay for salaries in BTC in the US? I was surprised at the answer - it is a yes. But withholding taxes have to be computed and all. Arizona wanted to be the first state to accept taxes in BTC but that failed.
+- Salt bars, cowrie shells, tally sticks, rai stones as non-metal money. The rai stones example were interesting because the stones were quarried 200Km away. An English explorer (O'Keefe) realized this, started mining the stones and then brought it to the island. There was an eventual economic collapse since the rate of production of rai stones was now way higher.
+- Metal money came next - it was just pure pieces of metal. Hard to carry.
+- Minted money came next - where it's stamped by the government.
+- Bitcoin is a transaction ledger whereas Ethereum is a balance ledger. I didn't know that!
+- Payment systems - A method to amend and record changes in ledgers for money.
+- What does a dollar note actually mean in terms of liability to the central bank? It means that if you bring that dollar note into the country, we will record it on the ledger of a commercial bank. 
+- A student mentioned that a central bank is a "legal and sustainable way to run a ponzi scheme where the value increases at the rate of inflation". That's an interesting way to put it.
+- A central bank has a "social liability" to ensure that trust in money remains.
+- Characteristics of money - durable, portable, divisible, fungible (see 1749 Royal Bank case), acceptable, stable.
+- Central banks reserves are only available to commercial banks.
+
+
+
+
+
