@@ -68,6 +68,11 @@ A post on my learnings from [15.S12](https://ocw.mit.edu/courses/sloan-school-of
 - Pre-Reading: Nakamoto paper itself. I glanced through it before. Read it again and got the ideas except for the probabilities on attacking the network and Gambler's Ruin.
 - Mostly cryptography basics so nothing new to write about in this lesson.
 
+## Lesson 4
+- Pre-Reading: [BTC Step by Step](https://blockgeeks.com/guides/best-bitcoin-script-guide/). I thought this was cool. To walk through every step of the BTC transaction process and understand how a transaction is made.
+- Pre-reading [Various Consensus Protocols](https://www.coindesk.com/short-guide-blockchain-consensus-protocols). I thought Intel's proof of elapsed time was cool.
+- [This](https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/ch08.html) is not pre-reading but it helped me understand how mining works under the hood. I had trouble with understanding mempool and the transactions previously.
+
 
 
 
