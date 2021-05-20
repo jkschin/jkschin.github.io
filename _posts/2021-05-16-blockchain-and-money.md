@@ -69,11 +69,19 @@ A post on my learnings from [15.S12](https://ocw.mit.edu/courses/sloan-school-of
 - Mostly cryptography basics so nothing new to write about in this lesson.
 
 ## Lesson 4
-- Pre-Reading: [BTC Step by Step](https://blockgeeks.com/guides/best-bitcoin-script-guide/). I thought this was cool. To walk through every step of the BTC transaction process and understand how a transaction is made.
+- Pre-reading: [BTC Step by Step](https://blockgeeks.com/guides/best-bitcoin-script-guide/). I thought this was cool. To walk through every step of the BTC transaction process and understand how a transaction is made.
 - Pre-reading [Various Consensus Protocols](https://www.coindesk.com/short-guide-blockchain-consensus-protocols). I thought Intel's proof of elapsed time was cool.
 - [This](https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/ch08.html) is not pre-reading but it helped me understand how mining works under the hood. I had trouble with understanding mempool and the transactions previously.
 
-
+## Lesson 5
+- Pre-reading: [ACM Article](https://queue.acm.org/detail.cfm?id=3136559). 
+  - "blockchains are frequently presented as more secure than traditional registries—a misleading claim."
+  - "We've seen repeatedly that ideas in the research literature can be gradually forgotten or lie unappreciated, especially if they are ahead of their time, even in popular areas of research." I thought this comment was great because deep learning was invented in the 1980s but is only possible today because of improvements in hardware.
+- Pre-reading: [Making sense of Cryptoeconomics](https://www.coindesk.com/making-sense-cryptoeconomics). 
+  - "One of the most common mistakes in this industry is made by those who view blockchains only through a lens of computer science or applied cryptography. We have a strong tendency to prioritize the things we are most comfortable with, and see things outside of our domain of expertise as less important." I'm guilty of this myself. I should take an active approach to keep an open mind on things outside of my domain of expertise.
+  - A Vickrey auction is interesting. Bids are secret and the winner of the auction (defined as the player with the highest bid) only pays the second highest amount that was bid.
+  - "For instance, the prediction market Augur requires cryptoeconomic mechanisms in order to function. Using its native token REP, Augur creates a system of incentives that rewards users for reporting the “truth” to the application, which is then used to settle bets in the prediction market. This is the innovation that makes a decentralized prediction market possible. Another prediction market, Gnosis, uses a similar method, though also lets users specify other mechanisms for determining true outcomes (commonly called “oracles”)." Oh this is a very interesting idea.
+- Mostly on UTXOs and CS topics. Stuff I understood before or understood after doing the pre-readings.
 
 
 
