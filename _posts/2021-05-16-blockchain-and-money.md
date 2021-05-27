@@ -84,4 +84,25 @@ A post on my learnings from [15.S12](https://ocw.mit.edu/courses/sloan-school-of
 - Mostly on UTXOs and CS topics. Stuff I understood before or understood after doing the pre-readings.
 
 
+## Lesson 6
+- Pre-reading: [Smart Contract Use Cases](https://digitalchamber.org/wp-content/uploads/2018/02/Smart-Contracts-12-Use-Cases-for-Business-and-Beyond_Chamber-of-Digital-Commerce.pdf). I really liked this document. A concise summary of all the use cases. It's what I've been thinking a lot about recently.
+- Pre-reading: [Ethereum Competitors](https://blockonomi.com/ethereum-competitors/)
+  - "The fork came out of a user exploiting Ethereum’s plan to create a venture capital fund for every future application on the system. This plan was called the Decentralized Autonomous Organization (DAO), and it was essentially a complicated smart contract. It allowed any app idea to be voted on by token holders. If an idea was received positively, it was given the necessary funds to start development." I like this idea of venture capital.
+  - Also heard of a few other blockchains.
+  - Chainlink is super cool. I want to watch it closely.
+- Pre-reading: [Nick Szabo Paper](http://www.truevaluemetrics.org/DBpdfs/BlockChain/Nick-Szabo-Smart-Contracts-Building-Blocks-for-Digital-Markets-1996-14591.pdf).
+  - Really like the idea of "In the future the size distribution of multinational companies will approach that of local business, giving rise to
+multinational small business". Writing this in 1996 is really prescient. 
+  - I like the idea about smart property and the thing about making it prohibitively hard to skirt the contract. We can sort of embed smart contracts in physical assets like a house, where if you don't pay your electricity bills, electricity is turned off. Or if you sold the house already and refuse to honour the smart contract, the new owner can turn off the electricity or do some crazy stuff that would make it terrible for the previous owner to play punk - that way, a third party need not come and enforce.
+- There are two more pre-readings. One is the Ethereum Whitepaper - it is just too long to read. Might spend some time in future reading it end to end. Vitalik wrote it when he was 19, and he was a recipient of a Thiel Fellowship. Impressive guy.
+- Another is an [arxiv paper](https://arxiv.org/pdf/1801.02507.pdf). It looks interesting but not going to sink time in it now.
+- Larry Lessig mentioned that "contracts always have the state present". That's a real interesting thought. The vending machine we see on the streets have an "implicit contract" of us not getting sick when we drink from it. The state enforces that implicit contract through various laws.
+- For most contracts, the state is not going to care. But for some, like "offering 10K to anyone who would burn my parents house down", is one that would clearly be criminal in most countries. If you were stupid enough to believe in that "contract" and went to state courts (if you even could), there wouldn't be a case at all. The state is not going to help you enforce it!
+- Is there ever, a situation, where the state is not present in the contract?
+- Objective of contract law is not to eliminate risk - it's to allocate risk! And this reallocation of risk only matters if I can enforce the contract - legal system.
+- Key value of smart contracts is that it is a substitute for a failed system. In a third world country, where people cannot contract because of a poor legal system, smart contracts could help if enough people are willing to use that system.
+- When contracts are all in code, it becomes very precise, but sometimes obscurity is value. Like how do you factor a case when your house is hit by a meteorite? Do you code that in?
+- Larry Lessig is super cool - he actually said "so f-king naive" hahaha. The context of him saying that was how some far right crypto enthusiasts imagine a world without government.
+- There is actually no reason for lawyers to be there for the 90% of the stuff we do. Like when you buy a house, you need a lawyer there to sign documents for you!
+
 
