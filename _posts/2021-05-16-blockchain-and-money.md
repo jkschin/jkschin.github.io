@@ -120,8 +120,21 @@ multinational small business". Writing this in 1996 is really prescient.
 - As an extension to the above point, it is hard to remove a "central authority". Humans have always looked to an authority figure as we stand on the shoulders of the giants who come before us. Silvio Micali started Algorand. As a Turing award winner for cryptography, his ideas in crypto are definitely worth looking into. As such, if a fork were to occur one day in Algorand, most people would follow Micali! It is important to keep in mind that whatever happens in crypto / DeFi in general, there is always a figure head that most people would follow. If you follow this line of argument, then DeFi, can be loosely reduced from a democracy, to a geniocracy, and then to a dictatorship. 
 - There will be views from great minds who are crypto minimalists coming up in this class. It is interesting that this is such a divisive topic. Is this true of all ideas in history? Cars and mobile phones are surely not divisive. What other ideas were extremely divisive in the past and what has become of them? Matters regarding race, slavery and women's rights were probably divisive back in their day. However, when we look at it in 2021, I would say most people would agree that racism and slavery is bad, and women's rights are important. As we are at the start of the "crypto" revolution from 2009, what would we think of it when 2059 comes? We would likely converge on what is "right", in the sense of the common man thinking it is "right". As I write this in 2021, I can only imagine that existing institutions and trust in governments would still be around. Governments or some form of monarchy / ruling class have existed for five thousand years, and is something that will probably be here to stay as people look for a figure head (as mentioned above). As of now, I guess I am cautiously optimistic about crypto and look towards the various monetary authorities around the world for guidance.
 
-
-
-
-
+## Lesson 8
+- Pre-reading: [Gensler Paper To Committee on Agriculture](https://docs.house.gov/meetings/AG/AG00/20180718/108562/HHRG-115-AG00-Wstate-GenslerG-20180718.pdf). The title struck me because it was addressed to the Committee on Agriculture. Long read!
+  - From reading this, it almost feels like Gensler is slightly maximalist on crypto.
+  - You don't actually own the wallet in a decentralized way when trading on the exchange.
+  - "I’m an optimist and want to see this new technology succeed. It could
+lower costs, risks and economic rents in the financial system.". He stated his position!
+- Pre-reading: [Stiglitz and BTC](https://www.cnbc.com/2018/07/09/nobel-prize-winning-economist-joseph-stiglitz-criticizes-bitcoin.html). I guess I can agree with Stiglitz that a digital currency for the US will be created in future, just like the digital yuan in China. 
+- Pre-reading: [Mark Carney Speech](https://www.bankofengland.co.uk/-/media/boe/files/speech/2018/the-future-of-money-speech-by-mark-carney.pdf?la=en&hash=A51E1C8E90BDD3D071A8D6B4F8C1566E7AC91418).
+  - Money solves the coincidence of wants.
+- With respect to crypto assets, governments want to guard against illicit activity, maintain financial stability and protect the investing public.
+- Japan had one of the earliest crypto exchanges - Mt. Gox. Because of the hack, Japan came out with new regulation to protect investors. A few of these exchanges got shutdown after.
+- When they talk about illicit activity, tax evasion is actually one of the highest, if not the highest priority.
+- Bank secrecy act - prevents AML and you need to do KYC.
+- Crypto is still too small in market cap for regulators to worry about financial stability. But countries with capital controls might be concerned about that as it is a means for capital to flow out without the state knowing.
+- Central Bank Digital Currency (CBDC). If one is started, it might cause a run on commercial banks.
+- Howey Test (1946). Citrus groves case in 1946. Were the citrus groves an investment contract? You can Google the 4 questions to test this. If they are an investment contract, then it is a security.
+- Public policy development. I learnt something new. If you want to push a new policy, you first need to get your messaging right. Once you have the messaging, you can then build a coalition (politics). Only after you get the support can you do your analysis and then a policy emerges. 2016 Elections messaging was MAGA. 2008 Elections was "Change we can believe in". 2000 Elections was "compassionate conservative". 1992 was "It's the economy stupid". After policy is implemented, don't forget that policy is personnel. The highest level of people are the elected officials, followed by the senior managers in various departments, and then the day to day person that's executing the policy. 
 
