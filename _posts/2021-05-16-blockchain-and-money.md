@@ -202,3 +202,26 @@ lower costs, risks and economic rents in the financial system.". He stated his p
 - When valuing a crypto asset, you want to think about velocity of money. Velocity here is defined as if A passes it to B, and B to C, etc. There's mroe theory to it but at a high level, if people want to hold it, then velocity is lower and it's of a higher value.
 - This [part of the lecture](https://youtu.be/_eGNSuTBc60?t=4126) struck a chord with me - using an underlying basket of equities or "something", to back a token. Paper money started this way!
 - A digital token tied to something offline (illiquids) has a lot of friction. I think there's an opportunity here. In this lecture, they specifically mentioned supply chain management as a field where there has not been much collective action in the past.
+
+## Lesson 12
+- Pre-reading: [The Impact of Blockchain Technology on Finance: A Catalyst for Change](https://voxeu.org/content/impact-blockchain-technology-finance-catalyst-change)
+  - Page 51 listed Supply Chains as being first on the list for broader economic impact.
+  - "Supply chains are seen as prime use cases for blockchain technology since their members operate within a context of both common objectives and mutual mistrust."
+  - "One indication of how effective this could be is found in the ambitions of Hong Kong’s Belt and Road Blockchain consortium." I didn't know this existed!
+  - "In two high-profile trials, IBM and Walmart used distributed-ledger technologies to trace the movement of Chinese pork128 and Mexican mangoes129 along a supply chain by integrating data from farmers, produce buyers, shippers, delivery companies, wholesalers and the retail giant itself. By making information that would not otherwise be shared available to chain members, the retailer was able to more readily identify the origins of tainted food. Walmart, Unilever, Dole Foods and others later joined an alliance with IBM to deploy blockchain technology for the food industry." This is super cool.
+  - The other opportunities are really cool too.
+- Pre-reading: [Blockchain beyond the hype: What is the strategic business value?](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/blockchain-beyond-the-hype-what-is-the-strategic-business-value)
+  - This statement is almost hilarious. "That the focus of blockchain is wrapped up with Bitcoin is not surprising given that its market value surged from less than $20 billion to more than $200 billion over the course of 2017.". Welcome to 2021, where the market cap hit $1T. Will it hit $5T in the next hype cycle?
+  - "Most tellingly, large investments in blockchain are being made. Venture-capital funding for blockchain start-ups consistently grew and were up to $1 billion in 2017."
+  - "IBM has more than 1,000 staff and $200 million invested in the blockchain-powered Internet of Things (IoT).". That's a largest investment, it's no wonder they are the market leaders in blockchain now.
+  - I learnt today that "coopetition" is actually a word to describe the paradox of competition and cooperation.
+  - "In the short term, blockchain’s strategic value is mainly in cost reduction". I agree with this. What are the indicators of blockchain taking off and disrupting? As mentioned in Lesson 11 by Rob Gensler, it's going to take off fast when it happens.
+  - "However, connecting and securing physical goods to a blockchain requires enabling technologies like IoT and biometrics. This connection can be a vulnerability in the security of a blockchain ledger because while the blockchain record might be immutable, the physical item or IoT sensor can still be tampered with. For example, certifying the chain of custody of commodities like grain or milk would require a tagging system like radio-frequency identification that would increase the assurance being provided but not deliver absolute provenance." Bridging the physical and digital divide is the real hard part of blockchain uses cases.
+- Pre-reading: [Adam Ludwin letter to Jamie Dimon](http://www.ceresaig.com/wp-content/uploads/2017/11/A-Letter-to-JP-Morgan-Jamie-Dimon-%E2%80%93-Block-Chain-Crypto-FX.pdf). First page was quite compelling - seems like a balanced view.
+  - "So, to repeat: crypto assets are a new asset class that enable decentralized applications." I like this definition. It is more of an asset, but also not really an asset because asset implies that it has "intrinsic value", which as we mentioned above, doesn't really matter
+  - The explanation of Bitcoin is this paper is amazing. 
+- Bitcoin is censorship resistant - anyone can transact on it.
+- Off chain assets - in supply chains, we mostly have to deal with off chain assets.
+- Extreme remote agriculture networks, where most are unbanked, could potentially use decentralized apps as there is no central intermediary and a lack of trust between all participants.
+- Entire class on supply chain management in Lesson 22. 
+
