@@ -225,3 +225,12 @@ lower costs, risks and economic rents in the financial system.". He stated his p
 - Extreme remote agriculture networks, where most are unbanked, could potentially use decentralized apps as there is no central intermediary and a lack of trust between all participants.
 - Entire class on supply chain management in Lesson 22. 
 
+## Lesson 13
+- Pre-reading: [M-Pesa](https://mag.n26.com/m-pesa-how-kenya-revolutionized-mobile-payments-56786bc09ef). M-Paisa is a good example of how having something on digital record can reduce corruption.
+- A couple of other short pre-readings and two long ones that I skimmed.
+- Crane is the company that provides the linen for US bank notes - interesting!
+- The term "credit card" actually appeared in Edward Bellamy's Science Fiction book "Looking Backward" in guess what - 1887. I think I should start reading more science fiction.
+- Bridge currencies could be cool.
+- Wow, Western Union can charge up to 10% for fees?! Alin Dragos mentioned that transferring from person to person is not the same as from account to account. You could be transferring USD 1K from Singapore to some person in a rural village in a country. That's very different.
+- Largest money market fund in the whole world (as of 2019 when the lecture was given) is Ant Financial - USD 300B!
+- Multi-jurisdiction currencies have historically failed.
