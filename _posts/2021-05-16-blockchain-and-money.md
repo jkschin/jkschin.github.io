@@ -234,3 +234,8 @@ lower costs, risks and economic rents in the financial system.". He stated his p
 - Wow, Western Union can charge up to 10% for fees?! Alin Dragos mentioned that transferring from person to person is not the same as from account to account. You could be transferring USD 1K from Singapore to some person in a rural village in a country. That's very different.
 - Largest money market fund in the whole world (as of 2019 when the lecture was given) is Ant Financial - USD 300B!
 - Multi-jurisdiction currencies have historically failed.
+
+## Lesson 14
+- Pre-reading: [Lightning](https://cointelegraph.com/news/the-payment-industry-is-about-to-be-struck-by-lightning-expert-take). It does make sense to say that transactions below a certain amount can be on the lightning network. Large amounts are then put on the network directly. If a wire transfer now currently takes 5 days or more, what's 1 hour?
+- Three other generic articles that I didn't have anything to write about.
+- I didn't have much to write about in this lesson as it's a general payments lesson. I learnt a bit about what XRP is trying to do.
