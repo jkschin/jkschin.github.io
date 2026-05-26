@@ -21,7 +21,31 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
+## 🚀 Quick Start: Update & Deploy
+
+Here are the quick commands to run, update, and deploy your personal academic website:
+
+### 1. Local Development (Preview Changes)
+To start your local Jekyll server and preview your changes live at `http://127.0.0.1:4000`:
+```bash
+./shellscripts/localdev.sh
+```
+
+### 2. Update Publications from Google Scholar
+To automatically pull your latest publications from Google Scholar, format them into BibTeX, and save them to `_bibliography/papers.bib`:
+```bash
+python bin/fetch_scholar.py
+```
+*Note: Make sure to restart your local Jekyll server after running this so that the new publications are rendered.*
+
+### 3. Deploy Your Site to GitHub Pages
+To compile your website into the `docs/` folder, commit your changes, and push them to GitHub to deploy them live:
+```bash
+./shellscripts/deploy.sh
+```
+
 ## User community
+
 
 The vibrant community of **al-folio** users is growing!
 Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
