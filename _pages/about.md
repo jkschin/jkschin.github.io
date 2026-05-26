@@ -21,12 +21,9 @@ selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Year 3 PhD student at MIT.
+I am a Year 4 PhD student at MIT.
 My research interests are in applying machine learning to routing problems.
 Previously, I worked at Palantir as a software engineer.
-I have experience with large scale data integration and analysis and machine learning.
-I solve problems by first breaking it down, understanding the principles behind the problem, and then prioritizing the most important sub-problems to solve.
-When writing the solution, I do not believe in quick fixes and gravitate towards writing clean maintainable code.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

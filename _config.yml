@@ -76,7 +76,7 @@ twitter_username: jkschin
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: jkschin
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: dY5xc7IAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -268,11 +268,15 @@ display_tags: ["personal", "code"] # this tags will be dispalyed on the front pa
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Chin]
+  first_name: [Samuel, Samuel J. K., Samuel JK, S. J. K., J. K.]
+
+  sort_by: year
+  order: descending
 
   style: apa
   locale: en
+
 
   source: /_bibliography/
   bibliography: papers.bib

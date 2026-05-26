@@ -3,82 +3,38 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@article{chin2026neural,
+  title={Neural Cluster First, Route Second: One-Shot Capacitated Vehicle Routing via Differentiable Optimal Transport},
+  author={Samuel JK Chin and Maximilian Schiffer},
+  year={2026},
+  journal={arXiv preprint arXiv:2605.09301},
+  html={https://arxiv.org/abs/2605.09301},
+  abstract={The Capacitated Vehicle Routing Problem (CVRP) underpins modern last-mile logistics. Current Neural Combinatorial Optimization (NCO) methods construct CVRP solutions autoregressively, inheriting sequential decoding bottlenecks, sensitivity to spatial symmetries, and brittle out-of-distribution behavior. We revisit the classical Cluster-First-Route-Second (CFRS) paradigm -- long known to be asymptotically optimal but largely overlooked by NCO -- and argue that it is structurally aligned with the core strengths of deep learning: similarity and assignment over global context, rather than the construction of long sequential tours. We introduce Neural CFRS, the first purely non-autoregressive one-shot neural CFRS framework for the CVRP. It enforces global fleet-capacity constraints end-to-end via a differentiable entropic Optimal Transport layer, producing a continuous transport plan to sparsify an exact capacitated assignment solver. We provide formal theoretical guarantees that our architecture intrinsically abstracts away  spatial, inter-route permutation, and intra-route traversal symmetries. By equipping the framework with a pre-trained spatial vocabulary, we unlock extreme parameter efficiency and zero-shot scaling. Designed primarily for real-world spatial distributions under a constant capacity setting, Neural CFRS scales robustly to out-of-distribution  instances with a < 4% gap -- retaining an approximate 5% gap at this scale even as an ultra-lightweight, single-layer architecture. Furthermore, when deployed out-of-the-box on standard benchmarks, we achieve a highly competitive 2.73% optimality gap on size-100 problems.},
+  selected={true},
+  abbr={arXiv},
+  bibtex_show={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{chin2024learning,
+  title={Learning to Deliver: a Foundation Model for the Montreal Capacitated Vehicle Routing Problem},
+  author={Samuel Chin and Matthias Winkenbach and Akash Srivastava},
+  year={2024},
+  journal={arXiv preprint arXiv:2403.00026},
+  html={https://arxiv.org/abs/2403.00026},
+  abstract={In this paper, we present the Foundation Model for the Montreal Capacitated Vehicle Routing Problem (FM-MCVRP), a novel Deep Learning (DL) model that approximates high-quality solutions to a variant of the Capacitated Vehicle Routing Problem (CVRP) that characterizes many real-world applications. The so-called Montreal Capacitated Vehicle Routing Problem (MCVRP), first formally described by Bengio et al. (2021), is defined on a fixed and finite graph, which is analogous to a city. Each MCVRP instance is essentially the sub-graph connecting a randomly sampled subset of the nodes in the fixed graph, which represent a set of potential addresses in a real-world delivery problem on a given day. Our work exploits this problem structure to frame the MCVRP as an analogous Natural Language Processing (NLP) task. Specifically, we leverage a Transformer architecture embedded in a Large Language Model (LLM) framework to train our model in a supervised manner on computationally inexpensive, sub-optimal MCVRP solutions obtained algorithmically. Through comprehensive computational experiments, we show that FM-MCVRP produces better MCVRP solutions than the training data and generalizes to larger sized problem instances not seen during training. Even when compared to near-optimal solutions from state-of-the-art heuristics, FM-MCVRP yields competitive results despite being trained on inferior data. For instance, for 400-customer problems, FM-MCVRP solutions on average fall within 2% of the benchmark. Our results further demonstrate that unlike prior works in the literature, FM-MCVRP is a unified model, which …},
+  selected={true},
+  abbr={arXiv},
+  bibtex_show={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@misc{chin2022solving,
+  title={Solving the Traveling Salesman Problem via Semantic Segmentation with Convolutional Neural Networks},
+  author={Samuel Chin},
+  year={2022},
+  html={https://dspace.mit.edu/handle/1721.1/144914},
+  abstract={The Traveling Salesman Problem (TSP) is a problem that has been formally studied since the 1930s and attracts great theoretical and practical interest. The theoretical aspects are particularly interesting as the TSP is an NP-hard problem and exact solutions for large TSPs are difficult to obtain. On the practical side, the growth of e-Commerce has resulted in more deliveries and it is increasingly important to obtain higher quality routes to increase efficiency. To that end, we introduce a Human Inspired Heuristic (HIH) that converts a road network semantic map into a truncated distance matrix that can be passed to a traditional TSP solution algorithm. The HIH can be further augmented in the image domain with our proposed novel Convolutional Neural Network (CNN). Our proposed CNN takes as input this original road network semantic map and outputs a reduced road network of plausible paths that are learned from near-optimal route instances. Through extensive numerical experiments, we find that additional pre-processing done by the CNN does not improve the performance of the HIH. In the context of real-world applications, a HIH designed based on physical constraints already works well. While the CNN in its current form in general fails to outperform a HIH, we did find one instance where it outperformed. This suggests that there is potential for CNNs to outperform and a promising research direction is to predict semantic maps in an autoregressive manner and reduce the reliance or remove entirely, the HIH.},
+  selected={true},
+  abbr={arXiv},
+  bibtex_show={true}
 }
