@@ -3,11 +3,8 @@
 # Exit if any subcommand fails
 set -e
 
-# Build the site
-bundle exec jekyll build
-
-rm -r docs/
-mv _site/ docs/
+# Build directly into docs
+bundle exec jekyll build --destination docs
 
 # Add, commit, and push the changes
 git add --all
