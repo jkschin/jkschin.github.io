@@ -3,17 +3,21 @@
 
 @string{aps = {American Physical Society,}}
 
+@book{einstein1920relativity,
+  title={Relativity: the Special and General Theory},
+  author={Einstein, Albert},
+  year={1920},
+  publisher={Methuen & Co Ltd},
+  html={relativity.html}
+}
 
-@article{chin2026neural,
-  title={Neural Cluster First, Route Second: One-Shot Capacitated Vehicle Routing via Differentiable Optimal Transport},
-  author={Samuel JK Chin and Maximilian Schiffer},
-  year={2026},
-  journal={arXiv preprint arXiv:2605.09301},
-  html={https://arxiv.org/abs/2605.09301},
-  abstract={The Capacitated Vehicle Routing Problem (CVRP) underpins modern last-mile logistics. Current Neural Combinatorial Optimization (NCO) methods construct CVRP solutions autoregressively, inheriting sequential decoding bottlenecks, sensitivity to spatial symmetries, and brittle out-of-distribution behavior. We revisit the classical Cluster-First-Route-Second (CFRS) paradigm -- long known to be asymptotically optimal but largely overlooked by NCO -- and argue that it is structurally aligned with the core strengths of deep learning: similarity and assignment over global context, rather than the construction of long sequential tours. We introduce Neural CFRS, the first purely non-autoregressive one-shot neural CFRS framework for the CVRP. It enforces global fleet-capacity constraints end-to-end via a differentiable entropic Optimal Transport layer, producing a continuous transport plan to sparsify an exact capacitated assignment solver. We provide formal theoretical guarantees that our architecture intrinsically abstracts away  spatial, inter-route permutation, and intra-route traversal symmetries. By equipping the framework with a pre-trained spatial vocabulary, we unlock extreme parameter efficiency and zero-shot scaling. Designed primarily for real-world spatial distributions under a constant capacity setting, Neural CFRS scales robustly to out-of-distribution  instances with a < 4% gap -- retaining an approximate 5% gap at this scale even as an ultra-lightweight, single-layer architecture. Furthermore, when deployed out-of-the-box on standard benchmarks, we achieve a highly competitive 2.73% optimality gap on size-100 problems.},
-  selected={true},
-  abbr={arXiv},
-  bibtex_show={true}
+@book{einstein1956investigations,
+  bibtex_show={true},
+  title={Investigations on the Theory of the Brownian Movement},
+  author={Einstein, Albert},
+  year={1956},
+  publisher={Courier Corporation},
+  preview={brownian-motion.gif}
 }
 
 @article{chin2024learning,
@@ -28,13 +32,83 @@
   bibtex_show={true}
 }
 
-@misc{chin2022solving,
-  title={Solving the Traveling Salesman Problem via Semantic Segmentation with Convolutional Neural Networks},
-  author={Samuel Chin},
-  year={2022},
-  html={https://dspace.mit.edu/handle/1721.1/144914},
-  abstract={The Traveling Salesman Problem (TSP) is a problem that has been formally studied since the 1930s and attracts great theoretical and practical interest. The theoretical aspects are particularly interesting as the TSP is an NP-hard problem and exact solutions for large TSPs are difficult to obtain. On the practical side, the growth of e-Commerce has resulted in more deliveries and it is increasingly important to obtain higher quality routes to increase efficiency. To that end, we introduce a Human Inspired Heuristic (HIH) that converts a road network semantic map into a truncated distance matrix that can be passed to a traditional TSP solution algorithm. The HIH can be further augmented in the image domain with our proposed novel Convolutional Neural Network (CNN). Our proposed CNN takes as input this original road network semantic map and outputs a reduced road network of plausible paths that are learned from near-optimal route instances. Through extensive numerical experiments, we find that additional pre-processing done by the CNN does not improve the performance of the HIH. In the context of real-world applications, a HIH designed based on physical constraints already works well. While the CNN in its current form in general fails to outperform a HIH, we did find one instance where it outperformed. This suggests that there is potential for CNNs to outperform and a promising research direction is to predict semantic maps in an autoregressive manner and reduce the reliance or remove entirely, the HIH.},
+@article{PhysRev.47.777,
+  abbr={PhysRev},
+  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal={Phys. Rev.},
+  location={New Jersey},
+  volume={47},
+  issue={10},
+  pages={777--780},
+  numpages={0},
+  year={1935},
+  month={May},
+  publisher=aps,
+  doi={10.1103/PhysRev.47.777},
+  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={example_pdf.pdf},
+  altmetric={248277},
+  dimensions={true},
+  google_scholar_id={qyhmnyLat1gC},
+  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+  annotation={* Example use of superscripts<br>† Albert Einstein},
   selected={true},
-  abbr={arXiv},
-  bibtex_show={true}
+  inspirehep_id = {3255}
+}
+
+@article{einstein1905molekularkinetischen,
+  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author={Einstein, A.},
+  journal={Annalen der physik},
+  volume={322},
+  number={8},
+  pages={549--560},
+  year={1905},
+  publisher={Wiley Online Library}
+}
+
+@article{einstein1905movement,
+  abbr={Ann. Phys.},
+  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author={Einstein, A.},
+  journal={Ann. Phys.},
+  volume={17},
+  pages={549--560},
+  year={1905}
+}
+
+@article{einstein1905electrodynamics,
+  title={On the electrodynamics of moving bodies},
+  author={Einstein, A.},
+  year={1905}
+}
+
+@Article{einstein1905photoelectriceffect,
+  bibtex_show={true},
+  abbr={Ann. Phys.},
+  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
+  author={Albert Einstein},
+  abstract={This is the abstract text.},
+  journal={Ann. Phys.},
+  volume={322},
+  number={6},
+  pages={132--148},
+  year={1905},
+  doi={10.1002/andp.19053220607},
+  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+  award_name={Nobel Prize}
+}
+
+@book{przibram1967letters,
+  bibtex_show={true},
+  title={Letters on wave mechanics},
+  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year={1967},
+  publisher={Vision},
+  preview={wave-mechanics.gif},
+  abbr={Vision}
 }
