@@ -15,7 +15,7 @@
   //     "region": "MA"
   //   },
   //   "profiles": []
-  // }, 
+  // },
   "education": [
     {
       "institution": "Massachusetts Institute of Technology",
@@ -56,14 +56,10 @@
       "startDate": "2012",
       "endDate": "2015",
       "score": "",
-      "courses": [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Security"
-      ]
+      "courses": ["Artificial Intelligence", "Machine Learning", "Security"]
     }
   ],
- "work": [
+  "work": [
     {
       "name": "Palantir Technologies",
       "position": "Software Engineer",

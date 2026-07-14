@@ -387,7 +387,7 @@ ul.task-list input[type="checkbox"] {
 
     a {
       &[href*="mailto:"] i::before {
-        color: #D44638; /* Color for email icon */
+        color: #d44638; /* Color for email icon */
       }
 
       &[href*="github.com"] i::before {
@@ -399,11 +399,11 @@ ul.task-list input[type="checkbox"] {
       }
 
       &[href*="twitter.com"] i::before {
-        color: #1DA1F2; /* Color for Twitter icon */
+        color: #1da1f2; /* Color for Twitter icon */
       }
 
       &[href*="rss.xml"] i::before {
-        color: #FFA500; /* Color for RSS feed icon */
+        color: #ffa500; /* Color for RSS feed icon */
       }
 
       i::before {
