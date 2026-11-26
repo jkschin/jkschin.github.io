@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Year 4 PhD student at MIT.
-My research interests are in applying machine learning to routing problems.
+I am pondering what my next steps should be.
+I earned my PhD and MEng from MIT, and BEng from the Singapore University of Technology and Design.
+My research interests are in machine learning and optimization.
 Previously, I worked at Palantir as a software engineer.
-My projected graduation date is end of 2026.
