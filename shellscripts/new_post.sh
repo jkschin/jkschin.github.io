@@ -10,18 +10,20 @@ usage() {
 Usage: $(basename "$0") [TITLE] [OPTIONS]
 
 Create a new Jekyll blog post in _posts/ (or _drafts/ with --draft).
+Defaults to the standard post layout; pass --distill for technical Distill.pub posts.
 If TITLE is omitted, prompts interactively.
 
 Options:
   -t, --tags TAGS        Space-separated tags (e.g. "personal", "code")
   -d, --desc TEXT        Short post description
+      --distill          Use layout: distill and create matching assets/bibliography/*.bib
       --draft            Create in _drafts/ instead of _posts/
   -o, --open             Open the new file in your editor (\$EDITOR or code)
   -h, --help             Show this help message
 
 Examples:
   $(basename "$0") "My New Post"
-  $(basename "$0") "Understanding Attention" -t code -d "Notes on attention."
+  $(basename "$0") "Understanding Attention" --distill -t code -d "Notes on attention."
   $(basename "$0") "Work in Progress" --draft
 EOF
 }
@@ -29,6 +31,7 @@ EOF
 TITLE=""
 TAGS=""
 DESCRIPTION=""
+IS_DISTILL=false
 IS_DRAFT=false
 OPEN_FILE=false
 
@@ -41,6 +44,10 @@ while [[ $# -gt 0 ]]; do
     -d|--desc|--description)
       DESCRIPTION="${2:-}"
       shift 2
+      ;;
+    --distill)
+      IS_DISTILL=true
+      shift
       ;;
     --draft)
       IS_DRAFT=true
@@ -77,9 +84,19 @@ if [[ -z "$TITLE" ]]; then
     echo "Error: Title cannot be empty." >&2
     exit 1
   fi
+  if [[ "$IS_DISTILL" == false ]]; then
+    read -r -p "Distill layout for technical post? (y/N): " DISTILL_ANSWER
+    case "$DISTILL_ANSWER" in
+      [yY]|[yY][eE][sS]) IS_DISTILL=true ;;
+    esac
+  fi
   if [[ -z "$TAGS" ]]; then
-    read -r -p "Tags (e.g. personal, code) [personal]: " TAGS
-    TAGS="${TAGS:-personal}"
+    DEFAULT_TAG="personal"
+    if [[ "$IS_DISTILL" == true ]]; then
+      DEFAULT_TAG="code"
+    fi
+    read -r -p "Tags (e.g. personal, code) [${DEFAULT_TAG}]: " TAGS
+    TAGS="${TAGS:-$DEFAULT_TAG}"
   fi
   if [[ -z "$DESCRIPTION" ]]; then
     read -r -p "Description (optional): " DESCRIPTION
@@ -133,15 +150,47 @@ TITLE_YAML="$(yaml_value "$TITLE")"
 DESC_YAML="$(yaml_value "$DESCRIPTION")"
 TAGS_YAML="$(yaml_value "$TAGS")"
 
-cat > "$FILE_PATH" <<EOF
+if [[ "$IS_DISTILL" == true ]]; then
+  BIB_FILENAME="${DATE_PREFIX}-${SLUG}.bib"
+  BIB_DIR="$REPO_ROOT/assets/bibliography"
+  BIB_PATH="$BIB_DIR/$BIB_FILENAME"
+  mkdir -p "$BIB_DIR"
+  if [[ ! -e "$BIB_PATH" ]]; then
+    cat > "$BIB_PATH" <<EOF
+% BibTeX references for "${TITLE}"
+% Cite in the post using: <d-cite key="citation_key"></d-cite>
+EOF
+    echo "Created: $BIB_PATH"
+  fi
+
+  cat > "$FILE_PATH" <<EOF
+---
+layout: distill
+title:${TITLE_YAML}
+description:${DESC_YAML}
+date: ${DATE_PREFIX}
+tags:${TAGS_YAML}
+authors:
+  - name: Samuel J. K. Chin
+    url: "https://jkschin.com"
+    affiliations:
+      name: MIT
+bibliography: ${BIB_FILENAME}
+
+toc:
+  - name: Introduction
+---
+
+## Introduction
+EOF
+else
+  cat > "$FILE_PATH" <<EOF
 ---
 layout: post
 title:${TITLE_YAML}
 date: ${FULL_DATE}
 description:${DESC_YAML}
 tags:${TAGS_YAML}
-categories:
-disqus_comments: false
 related_posts: false
 toc:
   sidebar: left
@@ -149,6 +198,7 @@ toc:
 
 ## Introduction
 EOF
+fi
 
 echo "Created: $FILE_PATH"
 
