@@ -240,6 +240,7 @@ exclude:
   - _pages/publications.md
   - purgecss.config.js
   - README.md
+  - WORKFLOW.md
   - readme_preview/
   - vendor
 keep_files:
